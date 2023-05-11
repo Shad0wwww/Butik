@@ -1,0 +1,11 @@
+name: BuyCraft
+version: '${project.version}'
+main: dk.shadow.buycraft.Main
+authors: [ Shad0wsense ]
+description: Buycraft
+commands:
+  buy:
+    description: buyCraft
+    aliases:
+      - buyCraft
+      - butik

@@ -1,0 +1,22 @@
+prefix: "&8&l[ &a&LBUYCRAFT &8&l]"
+
+messages:
+  reload_no_permissions: "%prefix% &fDu har ikke adgang."
+  reload_starting: "%prefix% &aReload er begyndt"
+  reload_error: "%prefix% &cDer opstod en fejl"
+  reload_succes: "%prefix% &asuccelsful reloaded"
+  only_player_command: "%prefix% &fDet er kun spillere der kan bruge commanden."
+
+  spiller_buy_coins: "%prefix% &fVent til en staff der vil kontakte dig."
+  admin_buy_coins:
+    - "%prefix%"
+    - "&fSpilleren &c%player% &fvil gerne købe &ecoins&f."
+
+
+  #RABATCOMMANDS
+  correct-rabat: "%prefix% &7correct brug: &f/buy rabat <rabat-navn - ranks, kits, keys, andet> <procent 0 - 100>."
+  ikke-et-tal: "%prefix% &7Du skal skrive et &ftal."
+  minus-rabat: "%prefix% &fDu kan ikke sætte procent til negative tal."
+  over-hundred-rabat: "%prefix% &fDu kan ikke sætte procent til over 100."
+  mather-ikke: "%prefix% &7brug en af dem her: &franks, kits, keys & andet."
+  du-satte: "%prefix% &7Du satte &f%rabat_navn% &7til &f%rabat_procent%% &7rabat."

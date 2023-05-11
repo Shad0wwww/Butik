@@ -1,0 +1,73 @@
+home:
+  title: "&8&L[ &a&lBUYCRAFT &8&l] » &f&LMAIN"
+  toprow: "&a"
+  bottomrow: "&f"
+  tos:
+    slot: 40
+    head: "http://textures.minecraft.net/texture/d806440f558864947dc093265006ea80d714524442b8a00906f2fb075077ceb3"
+    name: "&c&LT.O.S"
+    lore:
+      - "&fVigtigt at du læse denne tos."
+      - "&f"
+      - "&8▍ &7&nIngen refund."
+      - "&8▍ &7&nKøbet kan altid fratages."
+      - "&f"
+  coin:
+    slot: 4
+    head: "http://textures.minecraft.net/texture/b0a7b94c4e581b699159d48846ec091392506237c89a97c93248a0d8abc916d5"
+    name: "&e&lCOINS"
+    lore:
+      - "&f"
+      - "&fKlik her hvis du ønkser dig"
+      - "&fflere coins"
+      - "&f"
+      - "&8▍ &7Du har: &f%coins-amount%"
+      - "&f"
+  rank:
+    slot: 19
+    head: "http://textures.minecraft.net/texture/535c16551af39281d8307800f854c18db58747a1cbb011628658fcc255a13c7c"
+    name: "&d&LRANKS"
+    lore:
+      - "&f"
+      - "&8▍ &7Her kan du se &fRanks&7,"
+      - "&8▍ &7og hvilke fordele du for."
+      - "&f"
+      - "&8» &7Rabat: &f%rabat-procent%%"
+      - "&f"
+      - "&fKlik her, for at åbne."
+  kit:
+    slot: 21
+    head: "http://textures.minecraft.net/texture/56d7fdb50f14c731c727b0e0d189b6a874319fc0d79c8a099acfc77c7b2d9196"
+    name: "&a&LKITS"
+    lore:
+      - "&f"
+      - "&8▍ &7Her kan du se &fKits&7,"
+      - "&8▍ &7og hvilke fordele de har."
+      - "&f"
+      - "&8» &7Rabat: &f%rabat-procent%%"
+      - "&f"
+      - "&fKlik her, for at åbne."
+  key:
+    slot: 23
+    head: "http://textures.minecraft.net/texture/ba33578ab303548e57825279de755c8800e24d94557bc437d9b5735be6379dc2"
+    name: "&b&LKEYS"
+    lore:
+      - "&f"
+      - "&8▍ &7Her kan du se &fkeys&7,"
+      - "&8▍ &7og hvilke fordele de har."
+      - "&f"
+      - "&8» &7Rabat: &f%rabat-procent%%"
+      - "&f"
+      - "&fKlik her, for at åbne."
+  andet:
+    slot: 25
+    head: "http://textures.minecraft.net/texture/b679577403b338e8f0cf72da2e74b739ba2edbe17869a766a5b6e4ee24ef3285"
+    name: "&f&LANDET"
+    lore:
+      - "&f"
+      - "&8▍ &7Her kan du se &fandet&7,"
+      - "&8▍ &7og hvilke fordele de har."
+      - "&f"
+      - "&8» &7Rabat: &f%rabat-procent%%"
+      - "&f"
+      - "&fKlik her, for at åbne."
