@@ -7,6 +7,7 @@ import dev.triumphteam.gui.guis.Gui;
 import dev.triumphteam.gui.guis.GuiItem;
 import dk.shadow.buycraft.Main;
 import dk.shadow.buycraft.configuration.Guis;
+import dk.shadow.buycraft.userinterfaces.GuiManager;
 import net.kyori.adventure.text.Component;
 import org.apache.commons.codec.binary.Base64;
 import org.bukkit.Material;
@@ -19,6 +20,7 @@ import org.bukkit.inventory.meta.SkullMeta;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
 
@@ -100,7 +102,21 @@ public class GUI {
         ItemStack kit = GUI.getSkull(Guis.get(head_path)[0]);
         String[] kit_lore = Guis.get(lore_path, "%rabat-procent%", String.valueOf(Main.getgetRabatManager().getRabat(rabat_repalcement)));
         return ItemBuilder.from(kit).name(Component.text(ColorUtils.getColored(Guis.get(name_path)[0]))).setLore(ColorUtils.getColored(kit_lore)).asGuiItem(event -> {
-            player.playSound(player.getLocation(), Sound.CHICKEN_EGG_POP, 1,5);
+            player.playSound(player.getLocation(), Sound.CLICK, 1,5);
+            String[] components = head_path.split("\\."); // Split the string at each dot
+            String name = components[components.length - 2]; // Get the last component
+            GuiManager.openMenu(player, name);
+
+        });
+    }
+
+    public static GuiItem tilbageCrafter(Player player, String head_path, String lore_path, String name_path) {
+        ItemStack tilbage = GUI.getSkull(Guis.get(head_path)[0]);
+        String[] tilbage_lore = Guis.get(lore_path);
+        return ItemBuilder.from(tilbage).name(Component.text(ColorUtils.getColored(Guis.get(name_path)[0]))).setLore(ColorUtils.getColored(tilbage_lore)).asGuiItem(event -> {
+            player.playSound(player.getLocation(), Sound.CLICK, 1,5);
+            GuiManager.openMenu(player, "home");
+
         });
     }
 

@@ -7,7 +7,7 @@ home:
     head: "http://textures.minecraft.net/texture/d806440f558864947dc093265006ea80d714524442b8a00906f2fb075077ceb3"
     name: "&c&LT.O.S"
     lore:
-      - "&fVigtigt at du læse denne tos."
+      - "&fVigtigt at du læser denne tos."
       - "&f"
       - "&8▍ &7&nIngen refund."
       - "&8▍ &7&nKøbet kan altid fratages."
@@ -15,14 +15,19 @@ home:
   coin:
     slot: 4
     head: "http://textures.minecraft.net/texture/b0a7b94c4e581b699159d48846ec091392506237c89a97c93248a0d8abc916d5"
-    name: "&e&lCOINS"
+    name: "&e&lKØB COINS"
     lore:
       - "&f"
-      - "&fKlik her hvis du ønkser dig"
-      - "&fflere coins"
+      - "&8▍ &7Her kan du anmode"
+      - "&8▍ &7om at købe &fcoins&7."
+      - "&8▍ &71 em = 1 coin"
       - "&f"
-      - "&8▍ &7Du har: &f%coins-amount%"
+      - "&8▍ &7Du kan ikke købe"
+      - "&8▍ &7under &f100 coins"
       - "&f"
+      - "&8» &7Du har: &f%coins-amount%"
+      - "&f"
+      - "&fKlik for at købe"
   rank:
     slot: 19
     head: "http://textures.minecraft.net/texture/535c16551af39281d8307800f854c18db58747a1cbb011628658fcc255a13c7c"
@@ -71,3 +76,58 @@ home:
       - "&8» &7Rabat: &f%rabat-procent%%"
       - "&f"
       - "&fKlik her, for at åbne."
+rank:
+  title: "&8&L[ &a&lBUYCRAFT &8&l] » &f&LRANKS"
+  toprow: "&a"
+  bottomrow: "&f"
+  tilbage:
+    slot: 40
+    head: "http://textures.minecraft.net/texture/a3852bf616f31ed67c37de4b0baa2c5f8d8fca82e72dbcafcba66956a81c4"
+    name: "&c&lTILBAGE"
+    lore:
+      - "&f"
+      - "&fKlik her, for at komme"
+      - "&ctilbage"
+      - "&f"
+
+kit:
+  title: "&8&L[ &a&lBUYCRAFT &8&l] » &f&LKITS"
+  toprow: "&a"
+  bottomrow: "&f"
+  tilbage:
+    slot: 40
+    head: "http://textures.minecraft.net/texture/a3852bf616f31ed67c37de4b0baa2c5f8d8fca82e72dbcafcba66956a81c4"
+    name: "&c&lTILBAGE"
+    lore:
+      - "&f"
+      - "&fKlik her, for at komme"
+      - "&ctilbage"
+      - "&f"
+
+key:
+  title: "&8&L[ &a&lBUYCRAFT &8&l] » &f&LKEYS"
+  toprow: "&a"
+  bottomrow: "&f"
+  tilbage:
+    slot: 40
+    head: "http://textures.minecraft.net/texture/a3852bf616f31ed67c37de4b0baa2c5f8d8fca82e72dbcafcba66956a81c4"
+    name: "&c&lTILBAGE"
+    lore:
+      - "&f"
+      - "&fKlik her, for at komme"
+      - "&ctilbage"
+      - "&f"
+
+andet:
+  title: "&8&L[ &a&lBUYCRAFT &8&l] » &f&LANDET"
+  toprow: "&a"
+  bottomrow: "&f"
+  tilbage:
+    slot: 40
+    head: "http://textures.minecraft.net/texture/a3852bf616f31ed67c37de4b0baa2c5f8d8fca82e72dbcafcba66956a81c4"
+    name: "&c&lTILBAGE"
+    lore:
+      - "&f"
+      - "&fKlik her, for at komme"
+      - "&ctilbage"
+      - "&f"

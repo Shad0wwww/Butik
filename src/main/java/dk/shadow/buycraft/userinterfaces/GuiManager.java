@@ -1,6 +1,6 @@
 package dk.shadow.buycraft.userinterfaces;
 
-import dk.shadow.buycraft.userinterfaces.guis.Home;
+import dk.shadow.buycraft.userinterfaces.guis.*;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;
@@ -21,6 +21,10 @@ public class GuiManager {
 
         guis.clear();
         addGui("home", new Home());
+        addGui("rank", new Ranks());
+        addGui("kit", new Kits());
+        addGui("key", new Keys());
+        addGui("andet", new Andet());
 
     }
 }
