@@ -32,7 +32,7 @@ public class RabatSub extends ISubCommand {
             int rabat_procent = Integer.parseInt(args[1]);
 
             //IF THE NUMBER IS UNDER 0
-            if (!(rabat_procent > 0)) {
+            if (!(rabat_procent > -1)) {
                 Messages.send(sender, "messages.minus-rabat");
                 return;
             }

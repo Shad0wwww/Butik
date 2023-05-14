@@ -10,6 +10,7 @@ import dk.shadow.buycraft.configuration.Guis;
 import dk.shadow.buycraft.userinterfaces.GuiManager;
 import net.kyori.adventure.text.Component;
 import org.apache.commons.codec.binary.Base64;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
@@ -118,6 +119,35 @@ public class GUI {
             GuiManager.openMenu(player, "home");
 
         });
+    }
+
+
+    public static GuiItem itemsCrafter(Player player, String head_path,String name_path, String lore_path, Integer pris) {
+        ItemStack item = GUI.getSkull(Guis.get(head_path)[0]);
+        String[] item_lore;
+        String[] components = head_path.split("\\."); // Split the string at each dot
+        String name = components[components.length - 3]; // Get the last component
+        Bukkit.broadcastMessage("name - " + name);
+        int procent = Main.getgetRabatManager().getRabat(name);
+
+        Bukkit.broadcastMessage("procent - " + procent);
+        if (procent == 0) {
+
+            item_lore = Guis.get(lore_path, "%pris%", pris.toString());
+        } else {
+
+            int minus = Main.getgetRabatManager().calculateProcent(name, pris);
+            Bukkit.broadcastMessage("minus - " + minus);
+
+            item_lore = Guis.get(lore_path, "%pris%", "&c&m"+pris + "&f " + minus);
+        }
+
+
+
+        return ItemBuilder.from(item).name(Component.text(ColorUtils.getColored(Guis.get(name_path)[0]))).setLore(ColorUtils.getColored(item_lore)).asGuiItem();
+
+
+
     }
 
 }

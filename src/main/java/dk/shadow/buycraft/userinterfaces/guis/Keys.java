@@ -20,14 +20,14 @@ public class Keys implements SubGui {
         //CREATE THE GUI
         Gui gui = Gui.gui().title(Component.text(title)).rows(5).disableAllInteractions().create();
         //GLASS
-        String top_row = Guis.get("key.toprow")[0];
-        String bottom_row = Guis.get("rank.bottomrow")[0];
+        String top_row = Guis.get("keys.toprow")[0];
+        String bottom_row = Guis.get("keys.bottomrow")[0];
         GuiItem top_row_item = ItemBuilder.from(GUI.createItemGlass(Material.STAINED_GLASS_PANE, GlassColor.getGlassColor(ColorUtils.plain(top_row)), "&f")).name(Component.text(ColorUtils.getColored("&7"))).asGuiItem();
         GuiItem bottom_row_item = ItemBuilder.from(GUI.createItemGlass(Material.STAINED_GLASS_PANE, GlassColor.getGlassColor(ColorUtils.plain(bottom_row)), "&f")).name(Component.text(ColorUtils.getColored("&7"))).asGuiItem();
         GUI.fillTopRow(gui, top_row_item);
         GUI.fillBottomRow(gui, bottom_row_item);
 
-        gui.setItem(Integer.parseInt(Guis.get("key.tilbage.slot")[0]), GUI.tilbageCrafter(paramPlayer, "key.tilbage.head", "key.tilbage.lore", "key.tilbage.name"));
+        gui.setItem(Integer.parseInt(Guis.get("keys.tilbage.slot")[0]), GUI.tilbageCrafter(paramPlayer, "keys.tilbage.head", "keys.tilbage.lore", "keys.tilbage.name"));
 
         gui.open(paramPlayer);
     }

@@ -76,7 +76,11 @@ home:
       - "&8» &7Rabat: &f%rabat-procent%%"
       - "&f"
       - "&fKlik her, for at åbne."
-rank:
+
+#Hvis prisen bliver brugt til at regne med procent
+# Du kan bruge prisen som er fra regnet med rabat. via
+# %pris%
+ranks:
   title: "&8&L[ &a&lBUYCRAFT &8&l] » &f&LRANKS"
   toprow: "&a"
   bottomrow: "&f"
@@ -89,8 +93,16 @@ rank:
       - "&fKlik her, for at komme"
       - "&ctilbage"
       - "&f"
+  rank1:
+    slot: 22
+    pris: 1500
+    head: "http://textures.minecraft.net/texture/aa377679613a115133dddc312a0099419901ec5ab865b94544048874ad6eaf12"
+    name: "&a&LRANK 1"
+    lore:
+      - "&7Koster: &a%pris%"
 
-kit:
+
+kits:
   title: "&8&L[ &a&lBUYCRAFT &8&l] » &f&LKITS"
   toprow: "&a"
   bottomrow: "&f"
@@ -104,7 +116,7 @@ kit:
       - "&ctilbage"
       - "&f"
 
-key:
+keys:
   title: "&8&L[ &a&lBUYCRAFT &8&l] » &f&LKEYS"
   toprow: "&a"
   bottomrow: "&f"

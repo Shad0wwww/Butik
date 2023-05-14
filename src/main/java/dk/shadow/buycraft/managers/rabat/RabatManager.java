@@ -35,7 +35,7 @@ public class RabatManager {
         if (rabatObject != null) {
             int procent = rabatObject.getProcent();
             double result = (init * procent) / 100.0;
-            return (int) Math.ceil(result);
+            return (int) Math.ceil(init-result);
         } else {
             return 0;
         }
