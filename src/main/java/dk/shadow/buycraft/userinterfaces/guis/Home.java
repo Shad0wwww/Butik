@@ -3,21 +3,19 @@ package dk.shadow.buycraft.userinterfaces.guis;
 import dev.triumphteam.gui.builder.item.ItemBuilder;
 import dev.triumphteam.gui.guis.Gui;
 import dev.triumphteam.gui.guis.GuiItem;
-import dk.shadow.buycraft.Main;
 import dk.shadow.buycraft.configuration.Guis;
 import dk.shadow.buycraft.configuration.Messages;
-import dk.shadow.buycraft.managers.rabat.RabatManager;
 import dk.shadow.buycraft.userinterfaces.SubGui;
 import dk.shadow.buycraft.utils.ColorUtils;
 import dk.shadow.buycraft.utils.GUI;
 import dk.shadow.buycraft.utils.GlassColor;
+
 import dk.shadow.coins.database.SQLITEConnector;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-
 public class Home implements SubGui {
 
     @Override

@@ -16,7 +16,7 @@ public class Keys implements SubGui {
     @Override
     public void open(Player paramPlayer) {
         //TITLE
-        String title = Guis.get("key.title")[0];
+        String title = Guis.get("keys.title")[0];
         //CREATE THE GUI
         Gui gui = Gui.gui().title(Component.text(title)).rows(5).disableAllInteractions().create();
         //GLASS

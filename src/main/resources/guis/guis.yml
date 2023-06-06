@@ -39,7 +39,7 @@ home:
       - "&f"
       - "&8» &7Rabat: &f%rabat-procent%%"
       - "&f"
-      - "&fKlik her, for at åbne."
+      - "&8[ &7Klik her for at åbne. &8]"
   kit:
     slot: 21
     head: "http://textures.minecraft.net/texture/56d7fdb50f14c731c727b0e0d189b6a874319fc0d79c8a099acfc77c7b2d9196"
@@ -51,7 +51,7 @@ home:
       - "&f"
       - "&8» &7Rabat: &f%rabat-procent%%"
       - "&f"
-      - "&fKlik her, for at åbne."
+      - "&8[ &7Klik her for at åbne. &8]"
   key:
     slot: 23
     head: "http://textures.minecraft.net/texture/ba33578ab303548e57825279de755c8800e24d94557bc437d9b5735be6379dc2"
@@ -63,7 +63,7 @@ home:
       - "&f"
       - "&8» &7Rabat: &f%rabat-procent%%"
       - "&f"
-      - "&fKlik her, for at åbne."
+      - "&8[ &7Klik her for at åbne. &8]"
   andet:
     slot: 25
     head: "http://textures.minecraft.net/texture/b679577403b338e8f0cf72da2e74b739ba2edbe17869a766a5b6e4ee24ef3285"
@@ -75,7 +75,7 @@ home:
       - "&f"
       - "&8» &7Rabat: &f%rabat-procent%%"
       - "&f"
-      - "&fKlik her, for at åbne."
+      - "&8[ &7Klik her for at åbne. &8]"
 
 #Hvis prisen bliver brugt til at regne med procent
 # Du kan bruge prisen som er fra regnet med rabat. via
@@ -90,7 +90,7 @@ ranks:
     name: "&c&lTILBAGE"
     lore:
       - "&f"
-      - "&fKlik her, for at komme"
+      - "&fKlik her for at komme"
       - "&ctilbage"
       - "&f"
   rank1:
@@ -112,7 +112,7 @@ kits:
     name: "&c&lTILBAGE"
     lore:
       - "&f"
-      - "&fKlik her, for at komme"
+      - "&fKlik her for at komme"
       - "&ctilbage"
       - "&f"
 
@@ -126,7 +126,7 @@ keys:
     name: "&c&lTILBAGE"
     lore:
       - "&f"
-      - "&fKlik her, for at komme"
+      - "&fKlik her for at komme"
       - "&ctilbage"
       - "&f"
 
@@ -140,6 +140,6 @@ andet:
     name: "&c&lTILBAGE"
     lore:
       - "&f"
-      - "&fKlik her, for at komme"
+      - "&fKlik her for at komme"
       - "&ctilbage"
       - "&f"

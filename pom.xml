@@ -70,6 +70,10 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
+        <repository>
+            <id>local-maven-repo</id>
+            <url>file:///${project.basedir}/libs</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -93,7 +97,15 @@
         <dependency>
             <groupId>com.github.Shad0wwww</groupId>
             <artifactId>CoinsSystem</artifactId>
-            <version>85ebed839d</version>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>me.wiefferink</groupId>
+            <artifactId>areashop</artifactId>
+            <version>any</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/AreaShop.jar</systemPath>
         </dependency>
 
     </dependencies>
